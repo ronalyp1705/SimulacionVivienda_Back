@@ -19,7 +19,7 @@ public interface IUsuarioService {
 
     public  List<Usuario> searchByMail(String email);
 
-    void insertarUsuarioConRol(String email, String password,
+    public void insertarUsuarioConRol(String email, String password,
                                String username);
     public List<Usuario> listByRole(String roleName);
 
